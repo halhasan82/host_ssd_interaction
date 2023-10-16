@@ -1,0 +1,23 @@
+{
+    "FlashMemory": {
+        "sizeBytes": 1000000000,
+        "pageSizeBytes":20000,
+        "readLatency": 0.00005,
+        "writeLatency": 0.0008,
+        "deleteLatency": 0.0015
+    },
+    "DRAM": {
+        "sizeBytes": 10024,
+        "readBandwidth": 20,
+        "writeBandwidth": 10,
+        "deleteBandwidth": 10
+    },       
+    "PCIeInterface": {
+        "generation": 1,
+        "lanes": 4,
+        "bandwidth": 2.5
+    }
+}
+
+
+
